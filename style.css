@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f5;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.title {
+    color: #d00000;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.info {
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: 1.7;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.images {
+    margin: 20px;
+}
+
+.country-image {
+    width: 250px;
+    height: 170px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #bbb;
+}
+
+.source {
+    display: block;
+    color: #d00000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.heading {
+    color: #d00000;
+    margin-top: 35px;
+}
+
+.country-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.table-header {
+    background-color: #d00000;
+    color: white;
+    padding: 12px;
+}
+
+.table-data {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.table-row:hover {
+    background-color: #ffe5e5;
+}
+
+.registration-form {
+    background-color: white;
+    width: 350px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ddd;
+    text-align: left;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #b00000;
+}
+
+.form-input {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #d00000;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #a00000;
+}
